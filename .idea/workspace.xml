@@ -10,27 +10,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0b31f41-4ef9-4fbb-813b-1d6f5faaf897" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/com_tarnet_client_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.tarnet.client/com.tarnet.client.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.tarnet.client/src/com/tarnet/client/TarnetClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.tarnet.client/src/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.tarnet.common/com.tarnet.common.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.tarnet.common/src/com/tarnet/common/serviceInterfaces/IGreetingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.tarnet.common/src/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.tarnet.services/com.tarnet.services.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.tarnet.services/src/com/tarnet/services/hello/HelloService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.tarnet.services/src/com/tarnet/services/hi/HiService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.tarnet.services/src/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tarnet-java-modules.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tarnet/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.tarnet.client/src/com/tarnet/client/TarnetClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.tarnet.client/src/com/tarnet/client/TarnetClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.tarnet.common/src/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.tarnet.common/src/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.tarnet.services/src/com/tarnet/services/hello/HelloService.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.tarnet.services/src/com/tarnet/services/hello/HelloService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.tarnet.services/src/com/tarnet/services/hi/HiService.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.tarnet.services/src/com/tarnet/services/hi/HiService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.tarnet.services/src/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.tarnet.services/src/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/com.tarnet.client/com/tarnet/client/TarnetClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/com.tarnet.client/com/tarnet/client/TarnetClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/com.tarnet.common/com/tarnet/common/serviceInterfaces/IGreetingService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/com.tarnet.common/com/tarnet/common/serviceInterfaces/IGreetingService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/com.tarnet.services/com/tarnet/services/hello/HelloService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/com.tarnet.services/com/tarnet/services/hello/HelloService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/com.tarnet.services/com/tarnet/services/hi/HiService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/com.tarnet.services/com/tarnet/services/hi/HiService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +59,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/com.tarnet.common/src" />
+    <property name="ignore_missing_gitignore" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
@@ -129,7 +120,7 @@
       <option name="presentableId" value="Default" />
       <updated>1598007672902</updated>
       <workItem from="1598007674002" duration="424000" />
-      <workItem from="1598008168055" duration="7793000" />
+      <workItem from="1598008168055" duration="8837000" />
     </task>
     <servers />
   </component>
@@ -161,22 +152,22 @@
       <screen x="1920" y="-175" width="2560" height="1440" />
     </state>
     <state x="2927" y="241" key="FileChooserDialogImpl/0.0.1920.1080/1920.-175.2560.1440@1920.-175.2560.1440" timestamp="1598008099527" />
-    <state width="2505" height="398" key="GridCell.Tab.0.bottom" timestamp="1598015185953">
+    <state width="2505" height="398" key="GridCell.Tab.0.bottom" timestamp="1598017121652">
       <screen x="1920" y="-175" width="2560" height="1440" />
     </state>
-    <state width="2505" height="398" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.-175.2560.1440@1920.-175.2560.1440" timestamp="1598015185953" />
-    <state width="2505" height="398" key="GridCell.Tab.0.center" timestamp="1598015185953">
+    <state width="2505" height="398" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.-175.2560.1440@1920.-175.2560.1440" timestamp="1598017121652" />
+    <state width="2505" height="398" key="GridCell.Tab.0.center" timestamp="1598017121652">
       <screen x="1920" y="-175" width="2560" height="1440" />
     </state>
-    <state width="2505" height="398" key="GridCell.Tab.0.center/0.0.1920.1080/1920.-175.2560.1440@1920.-175.2560.1440" timestamp="1598015185953" />
-    <state width="2505" height="398" key="GridCell.Tab.0.left" timestamp="1598015185953">
+    <state width="2505" height="398" key="GridCell.Tab.0.center/0.0.1920.1080/1920.-175.2560.1440@1920.-175.2560.1440" timestamp="1598017121652" />
+    <state width="2505" height="398" key="GridCell.Tab.0.left" timestamp="1598017121652">
       <screen x="1920" y="-175" width="2560" height="1440" />
     </state>
-    <state width="2505" height="398" key="GridCell.Tab.0.left/0.0.1920.1080/1920.-175.2560.1440@1920.-175.2560.1440" timestamp="1598015185953" />
-    <state width="2505" height="398" key="GridCell.Tab.0.right" timestamp="1598015185953">
+    <state width="2505" height="398" key="GridCell.Tab.0.left/0.0.1920.1080/1920.-175.2560.1440@1920.-175.2560.1440" timestamp="1598017121652" />
+    <state width="2505" height="398" key="GridCell.Tab.0.right" timestamp="1598017121652">
       <screen x="1920" y="-175" width="2560" height="1440" />
     </state>
-    <state width="2505" height="398" key="GridCell.Tab.0.right/0.0.1920.1080/1920.-175.2560.1440@1920.-175.2560.1440" timestamp="1598015185953" />
+    <state width="2505" height="398" key="GridCell.Tab.0.right/0.0.1920.1080/1920.-175.2560.1440@1920.-175.2560.1440" timestamp="1598017121652" />
     <state width="2505" height="491" key="GridCell.Tab.1.bottom" timestamp="1598014876479">
       <screen x="1920" y="-175" width="2560" height="1440" />
     </state>
@@ -197,10 +188,10 @@
       <screen x="1920" y="-175" width="2560" height="1440" />
     </state>
     <state x="2591" y="103" width="1818" height="1059" key="SettingsEditor/0.0.1920.1080/1920.-175.2560.1440@1920.-175.2560.1440" timestamp="1598010880829" />
-    <state x="2981" y="308" key="chooseDestDirectoryDialog" timestamp="1598011523598">
+    <state x="2981" y="308" key="chooseDestDirectoryDialog" timestamp="1598017357660">
       <screen x="1920" y="-175" width="2560" height="1440" />
     </state>
-    <state x="2981" y="308" key="chooseDestDirectoryDialog/0.0.1920.1080/1920.-175.2560.1440@1920.-175.2560.1440" timestamp="1598011523598" />
+    <state x="2981" y="308" key="chooseDestDirectoryDialog/0.0.1920.1080/1920.-175.2560.1440@1920.-175.2560.1440" timestamp="1598017357660" />
     <state x="2819" y="76" key="new project wizard" timestamp="1598011691324">
       <screen x="1920" y="-175" width="2560" height="1440" />
     </state>
