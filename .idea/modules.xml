@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/com.tarnet.client/com.tarnet.client.iml" filepath="$PROJECT_DIR$/com.tarnet.client/com.tarnet.client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com.tarnet.common/com.tarnet.common.iml" filepath="$PROJECT_DIR$/com.tarnet.common/com.tarnet.common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com.tarnet.services/com.tarnet.services.iml" filepath="$PROJECT_DIR$/com.tarnet.services/com.tarnet.services.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tarnet-java-modules.iml" filepath="$PROJECT_DIR$/tarnet-java-modules.iml" />
+    </modules>
+  </component>
+</project>

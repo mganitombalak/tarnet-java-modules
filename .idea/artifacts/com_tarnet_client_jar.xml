@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact name="com.tarnet.client:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/com_tarnet_client_jar</output-path>
+    <root id="root">
+      <element id="archive" name="com.tarnet.client.jar">
+        <element id="module-output" name="com.tarnet.client" />
+        <element id="module-output" name="com.tarnet.hr" />
+      </element>
+    </root>
+  </artifact>
+</component>
